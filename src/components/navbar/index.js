@@ -11,13 +11,13 @@ import {
 	NavItem,
 } from './elements';
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
 	return (
 		<>
 			<Nav>
 				<NavbarContainer>
 					<NavBrand to="/">isaac</NavBrand>
-					<NavIcon>
+					<NavIcon onClick={toggle}>
 						<AiOutlineMenu />
 					</NavIcon>
 
