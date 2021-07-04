@@ -8,14 +8,14 @@ body {
 }
 
 a {
-	color: #ca82f8;
+	color: #9c1428;
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
 }
 a:hover {
 	text-decoration: underline;
-	color: #ca82f8;
+	color: #9c1428;
 }
 a:focus,
 a:active {
