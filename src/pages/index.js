@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import Navbar from '../components/navbar';
 import Drawer from '../components/navbar/drawer';
-import Hero from '../components/hero';
+import About from '../components/about';
 
 const Home = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +16,7 @@ const Home = () => {
 			<Drawer isOpen={isOpen} toggle={toggle} />
 			<Navbar toggle={toggle} />
 
-			<Hero />
+			<About />
 		</>
 	);
 };
