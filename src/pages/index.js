@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import Navbar from '../components/navbar';
+import NavBar from '../components/navbar';
 import Drawer from '../components/navbar/drawer';
 import About from '../components/about';
 
@@ -14,7 +14,7 @@ const Home = () => {
 	return (
 		<>
 			<Drawer isOpen={isOpen} toggle={toggle} />
-			<Navbar toggle={toggle} />
+			<NavBar toggle={toggle} />
 
 			<About />
 		</>

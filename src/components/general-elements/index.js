@@ -12,7 +12,7 @@ export const OverlayTitle = styled.h2`
 	font-family: Playfair Display;
 
 	@media screen and (max-width: 768px) {
-		font-size: 60px;
+		font-size: 72px;
 		padding-top: 80px;
 	}
 `;
