@@ -1,11 +1,16 @@
 import styled from 'styled-components';
 
-export const OverlayTitle = styled.h2`
+export const Mtb1 = styled.div`
+	margin-top: 10rem;
+	margin-bottom: 10rem;
+`;
+
+export const OverlayTitle = styled.h1`
 	position: absolute;
-	top: 0;
 	left: 0;
 	right: 0;
 	font-size: 250px;
+	margin-top: -160px;
 	color: #f0f0f0;
 	font-weight: 700;
 	text-align: center;
@@ -65,5 +70,28 @@ export const PrimaryBtn = styled.button`
 		border: 1px solid #c4495b;
 		transition: 0.5s ease-in-out;
 		color: #fff;
+	}
+`;
+
+export const IntroHeading = styled.div`
+	margin-bottom: 3em;
+
+	h2 {
+		font-size: 34px;
+		font-weight: 400;
+		line-height: 1.5;
+		margin-bottom: 1.5em;
+		color: #000;
+		position: relative;
+	}
+
+	span {
+		display: block;
+		text-transform: uppercase;
+		font-size: 12px;
+		letter-spacing: 3px;
+		margin-bottom: 10px;
+		color: #bfbfbf;
+		font-weight: 600;
 	}
 `;

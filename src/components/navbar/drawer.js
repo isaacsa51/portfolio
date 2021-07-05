@@ -21,6 +21,9 @@ const Drawer = ({ isOpen, toggle }) => {
 					<SidebarLinks to="about">About</SidebarLinks>
 				</SidebarMenu>
 				<SidebarMenu>
+					<SidebarLinks to="services">Services</SidebarLinks>
+				</SidebarMenu>
+				<SidebarMenu>
 					<SidebarLinks to="projects">Projects</SidebarLinks>
 				</SidebarMenu>
 				<SidebarMenu>

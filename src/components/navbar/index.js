@@ -17,29 +17,6 @@ import {
 const NavBar = ({ toggle }) => {
 	return (
 		<>
-			{/* <Nav>
-				<NavbarContainer>
-					<NavBrand to="/">
-						<span>Isaac</span>
-					</NavBrand>
-					<NavIcon onClick={toggle}>
-						<AiOutlineMenu />
-					</NavIcon>
-
-					<NavMenu>
-						<NavItem>
-							<NavLinks to="about">About</NavLinks>
-						</NavItem>
-						<NavItem>
-							<NavLinks to="projects">Projects</NavLinks>
-						</NavItem>
-						<NavItem>
-							<NavLinks to="contact">Contact</NavLinks>
-						</NavItem>
-					</NavMenu>
-				</NavbarContainer>
-			</Nav> */}
-
 			<Nav>
 				<NavbarContainer>
 					<NavBrand to="/">
@@ -53,11 +30,11 @@ const NavBar = ({ toggle }) => {
 						<NavLink to="/services" activeStyle>
 							Services
 						</NavLink>
-						<NavLink to="/contact-us" activeStyle>
-							Contact Us
+						<NavLink to="/projects" activeStyle>
+							Projects
 						</NavLink>
-						<NavLink to="/sign-up" activeStyle>
-							Sign Up
+						<NavLink to="/contact" activeStyle>
+							Contact
 						</NavLink>
 					</NavMenu>
 				</NavbarContainer>
