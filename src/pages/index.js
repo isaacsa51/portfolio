@@ -4,6 +4,7 @@ import NavBar from '../components/navbar';
 import Drawer from '../components/navbar/drawer';
 import About from '../components/about';
 import Services from '../components/services';
+import Projects from '../components/projects';
 
 const Home = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -19,6 +20,7 @@ const Home = () => {
 
 			<About />
 			<Services />
+			<Projects />
 		</>
 	);
 };

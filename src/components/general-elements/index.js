@@ -15,6 +15,7 @@ export const OverlayTitle = styled.h1`
 	font-weight: 700;
 	text-align: center;
 	font-family: Playfair Display;
+	z-index: -1;
 
 	@media screen and (max-width: 768px) {
 		font-size: 72px;
