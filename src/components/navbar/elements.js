@@ -5,13 +5,13 @@ import { AiOutlineClose } from 'react-icons/ai';
 
 export const Nav = styled.nav`
 	height: 60px;
-	margin-bottom: 60px;
+	margin-bottom: 125px;
 	display: flex;
 	align-items: center;
 	font-size: 1rem;
 	z-index: 10;
 
-	@media screen and (max-width: 960px) {
+	@media screen and (max-width: 768px) {
 		transition: 0.8s all ease;
 	}
 `;
@@ -29,7 +29,7 @@ export const NavbarContainer = styled.div`
 export const NavIcon = styled.div`
 	display: none;
 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 1024px) {
 		display: block;
 		position: absolute;
 		top: 0;
@@ -48,7 +48,7 @@ export const NavMenu = styled.ul`
 	padding-top: 5px;
 	letter-spacing: 1px;
 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 1024px) {
 		display: none;
 	}
 `;
@@ -86,6 +86,7 @@ export const NavBrand = styled(LinkR)`
 	display: flex;
 	align-items: center;
 	margin-top: 72px;
+	letter-spacing: 2px;
 	text-decoration: none !important;
 
 	span {

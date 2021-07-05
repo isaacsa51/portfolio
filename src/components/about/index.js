@@ -2,7 +2,12 @@ import React from 'react';
 import { Container, Image, Row, Col, Carousel } from 'react-bootstrap';
 import TypeWriterEffect from 'react-typewriter-effect';
 
-import { OverlayTitle, RotatedText, TextFlip } from '../general-elements';
+import {
+	OverlayTitle,
+	PrimaryBtn,
+	RotatedText,
+	TextFlip,
+} from '../general-elements';
 import { AboutDesc, AboutInfo } from './elements';
 
 const About = () => {
@@ -60,11 +65,7 @@ const About = () => {
 								assumenda rem?
 							</p>
 
-							<p>
-								<a href="#" class="btn btn-primary btn-outline">
-									Contact Me!
-								</a>
-							</p>
+							<PrimaryBtn>Contact me!</PrimaryBtn>
 						</AboutInfo>
 					</AboutDesc>
 				</Col>

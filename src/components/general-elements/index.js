@@ -8,10 +8,12 @@ export const OverlayTitle = styled.h2`
 	font-size: 250px;
 	color: #f0f0f0;
 	font-weight: 700;
+	text-align: center;
 	font-family: Playfair Display;
 
 	@media screen and (max-width: 768px) {
 		font-size: 60px;
+		padding-top: 80px;
 	}
 `;
 
@@ -44,5 +46,24 @@ export const RotatedText = styled.div`
 			width: 40px;
 			height: 1px;
 		}
+	}
+`;
+
+export const PrimaryBtn = styled.button`
+	background-color: transparent;
+	color: #4d4d4d;
+	border: 1px solid #d9d9d9;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 0.813rem;
+	line-height: 1.5;
+	padding: 0.375rem 0.75rem;
+	transition: 0.5s ease-in-out;
+
+	&:hover {
+		background-color: #c4495b;
+		border: 1px solid #c4495b;
+		transition: 0.5s ease-in-out;
+		color: #fff;
 	}
 `;
