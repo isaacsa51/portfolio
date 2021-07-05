@@ -37,6 +37,7 @@ const About = () => {
 								`Isaac Serrano`,
 								`I'm a Mobile Developer`,
 								`I'm a Software Developer`,
+								`Isaac Serrano`,
 							]}
 							multiTextDelay={2000}
 							typeSpeed={100}
@@ -57,6 +58,12 @@ const About = () => {
 								eos iste, labore rerum. Maiores quos enim consectetur, amet ex
 								quasi id asperiores repudiandae deleniti laborum perferendis
 								assumenda rem?
+							</p>
+
+							<p>
+								<a href="#" class="btn btn-primary btn-outline">
+									Contact Me!
+								</a>
 							</p>
 						</AboutInfo>
 					</AboutDesc>

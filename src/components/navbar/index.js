@@ -16,7 +16,9 @@ const Navbar = ({ toggle }) => {
 		<>
 			<Nav>
 				<NavbarContainer>
-					<NavBrand to="/">isaac</NavBrand>
+					<NavBrand to="/">
+						<span>Isaac</span>
+					</NavBrand>
 					<NavIcon onClick={toggle}>
 						<AiOutlineMenu />
 					</NavIcon>
