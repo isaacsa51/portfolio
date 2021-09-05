@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 import {
 	OverlayTitle,
@@ -7,7 +7,7 @@ import {
 	IntroHeading,
 	Mtb1,
 } from '../general-elements';
-import { ProjectsWrapper, ServicesWrapper } from './elements';
+import Slider from '../general-elements/slider';
 
 const Projects = () => {
 	return (
@@ -25,23 +25,19 @@ const Projects = () => {
 								<h2 class="text-center">Completed Projects</h2>
 							</IntroHeading>
 						</Col>
+
+						<Col className="d-none d-md-block">
+							<RotatedText>
+								<h2>Portfolio</h2>
+							</RotatedText>
+						</Col>
 					</Row>
 
-					<Container fluid>
-						<Row>
-							<Col>
-								<RotatedText>
-									<h2>Portfolio</h2>
-								</RotatedText>
-							</Col>
-						</Row>
-					</Container>
+					<Row></Row>
 
-					<Row class="text-center">
-						<Col md={10}>
-							<ProjectsWrapper>
-								<Image src="https://picsum.photos/800/600" fluid />
-							</ProjectsWrapper>
+					<Row>
+						<Col md={{ span: 11, offset: 1 }}>
+							<Slider />
 						</Col>
 					</Row>
 				</Container>

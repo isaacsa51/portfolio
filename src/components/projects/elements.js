@@ -1,17 +1,10 @@
 import styled from 'styled-components';
 
-export const ProjectsWrapper = styled.div`
-	display: block;
-	margin-bottom: 5em;
+export const Section = styled.section`
+	min-height: 100vh;
 	width: 100%;
-	float: left;
-
-	Image {
-		width: 100%;
-		height: 700px;
-		margin-bottom: 40px;
-		display: table;
-		text-align: center;
-		text-decoration: none;
-	}
+	align-items: center;
+	justify-content: center;
 `;
+
+export const Information = styled.div``;
