@@ -51,14 +51,19 @@ const About = () => {
 								</RotatedText>
 
 								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Adipisci quibusdam eligendi fuga quam nobis fugit mollitia
-									molestias, velit minima quisquam nostrum ullam odio. Minima,
-									nam laudantium enim magnam corporis fugit! Ut dolores, laborum
-									doloribus ullam necessitatibus non accusamus porro nesciunt
-									aut eos iste, labore rerum. Maiores quos enim consectetur,
-									amet ex quasi id asperiores repudiandae deleniti laborum
-									perferendis assumenda rem?
+									A person that always seeks to bring high quality and solid
+									solutions in each project in mind or hand.
+								</p>
+								<p>
+									Focusing on learning & mastering mobile app development with
+									the use of native technologies with the use of Kotlin or
+									hybrid technologies with React-Native. SOLID principles, agile
+									development, design patterns studied, practiced & mastered in:
+									CubicCoding, Hackademymx & Polytechnic University of Sinaloa.
+								</p>
+								<p>
+									Programming technician since 2018. Besides having experience
+									in motion graphics in the 2D area and simple logo design.
 								</p>
 
 								<PrimaryBtn>Contact me!</PrimaryBtn>

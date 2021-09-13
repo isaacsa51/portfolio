@@ -23,13 +23,13 @@ const Services = () => {
 							<Col md={{ span: 12, offset: 0 }}>
 								<IntroHeading>
 									<span>My Services</span>
-									<h2>Skills adquired</h2>
+									<h2>Skills acquired</h2>
 								</IntroHeading>
 							</Col>
 						</Row>
 
 						<Row>
-							<Col md={12}>
+							<Col className="d-none d-md-block" md={12}>
 								<RotatedText>
 									<h2>Services</h2>
 								</RotatedText>
@@ -59,23 +59,21 @@ const Services = () => {
 
 							<Col md={6}>
 								<ServicesWrapper>
-									<h3>3 - Clean Code/Clean Arquitecture</h3>
+									<h3>3 - Back-end development</h3>
+									<ul>
+										<li>Java</li>
+										<li>Spring Boot</li>
+										<li>Spring Core</li>
+										<li>Firebase</li>
+									</ul>
+								</ServicesWrapper>
+								<ServicesWrapper>
+									<h3>4 - Clean Code/Clean Architecture</h3>
 									<ul>
 										<li>MVVM</li>
 										<li>MVC</li>
 										<li>SOLID Principles</li>
 										<li>OOP</li>
-									</ul>
-								</ServicesWrapper>
-								<ServicesWrapper>
-									<h3>
-										4 - Mobile Development <i>Hybrid</i>
-									</h3>
-									<ul>
-										<li>React Native</li>
-										<li>Hooks</li>
-										<li>Redux</li>
-										<li>Firebase</li>
 									</ul>
 								</ServicesWrapper>
 							</Col>

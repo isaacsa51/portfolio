@@ -9,7 +9,7 @@ export const OverlayTitle = styled.h1`
 	position: absolute;
 	left: 0;
 	right: 0;
-	font-size: 11.25rem;
+	font-size: 10.25rem;
 	margin-top: -160px;
 	color: #f0f0f0;
 	font-weight: 700;
