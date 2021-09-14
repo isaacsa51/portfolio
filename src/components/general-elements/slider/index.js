@@ -31,17 +31,27 @@ const Slider = () => {
 									src="https://picsum.photos/800/400?blur"
 									alt="First slide"
 								/>
-								<Carousel.Caption
+
+								<a
+									href="/#"
 									style={{
-										...styles.normal,
-										...(hover ? styles.hover : null),
+										textDecoration: 'none',
+										color: '#fff',
+										cursor: 'pointer',
 									}}
 								>
-									<h4 style={{ color: '#fff' }}>First slide label</h4>
-									<p>
-										Nulla vitae elit libero, a pharetra augue mollis interdum.
-									</p>
-								</Carousel.Caption>
+									<Carousel.Caption
+										style={{
+											...styles.normal,
+											...(hover ? styles.hover : null),
+										}}
+									>
+										<h4 style={{ color: '#fff' }}>First slide label</h4>
+										<p>
+											Nulla vitae elit libero, a pharetra augue mollis interdum.
+										</p>
+									</Carousel.Caption>
+								</a>
 							</Carousel.Item>
 							<Carousel.Item
 								onMouseEnter={() => setHover(true)}
@@ -53,17 +63,26 @@ const Slider = () => {
 									alt="Second slide"
 								/>
 
-								<Carousel.Caption
+								<a
+									href="/#"
 									style={{
-										...styles.normal,
-										...(hover ? styles.hover : null),
+										textDecoration: 'none',
+										color: '#fff',
+										cursor: 'pointer',
 									}}
 								>
-									<h4 style={{ color: '#fff' }}>Second slide label</h4>
-									<p>
-										Nulla vitae elit libero, a pharetra augue mollis interdum.
-									</p>
-								</Carousel.Caption>
+									<Carousel.Caption
+										style={{
+											...styles.normal,
+											...(hover ? styles.hover : null),
+										}}
+									>
+										<h4 style={{ color: '#fff' }}>Second slide label</h4>
+										<p>
+											Nulla vitae elit libero, a pharetra augue mollis interdum.
+										</p>
+									</Carousel.Caption>
+								</a>
 							</Carousel.Item>
 							<Carousel.Item
 								onMouseEnter={() => setHover(true)}
@@ -75,17 +94,26 @@ const Slider = () => {
 									alt="Third slide"
 								/>
 
-								<Carousel.Caption
+								<a
+									href="/#"
 									style={{
-										...styles.normal,
-										...(hover ? styles.hover : null),
+										textDecoration: 'none',
+										color: '#fff',
+										cursor: 'pointer',
 									}}
 								>
-									<h4 style={{ color: '#fff' }}>Third slide label</h4>
-									<p>
-										Nulla vitae elit libero, a pharetra augue mollis interdum.
-									</p>
-								</Carousel.Caption>
+									<Carousel.Caption
+										style={{
+											...styles.normal,
+											...(hover ? styles.hover : null),
+										}}
+									>
+										<h4 style={{ color: '#fff' }}>Third slide label</h4>
+										<p>
+											Nulla vitae elit libero, a pharetra augue mollis interdum.
+										</p>
+									</Carousel.Caption>
+								</a>
 							</Carousel.Item>
 						</Carousel>
 					)}
@@ -101,16 +129,26 @@ const Slider = () => {
 									src="https://picsum.photos/800/400?blur"
 									alt="First slide"
 								/>
-								<Carousel.Caption
+
+								<a
+									href="/#"
 									style={{
-										...styles.normalSml,
-										...(hover ? styles.hoverSmal : null),
+										textDecoration: 'none',
+										color: '#fff',
+										cursor: 'pointer',
 									}}
 								>
-									<h5 style={{ color: '#fff', margin: 0 }}>
-										First slide label
-									</h5>
-								</Carousel.Caption>
+									<Carousel.Caption
+										style={{
+											...styles.normalSml,
+											...(hover ? styles.hoverSmal : null),
+										}}
+									>
+										<h5 style={{ color: '#fff', margin: 0 }}>
+											First slide label
+										</h5>
+									</Carousel.Caption>
+								</a>
 							</Carousel.Item>
 							<Carousel.Item
 								onMouseEnter={() => setHover(true)}
@@ -122,16 +160,25 @@ const Slider = () => {
 									alt="Second slide"
 								/>
 
-								<Carousel.Caption
+								<a
+									href="/#"
 									style={{
-										...styles.normalSml,
-										...(hover ? styles.hoverSmal : null),
+										textDecoration: 'none',
+										color: '#fff',
+										cursor: 'pointer',
 									}}
 								>
-									<h5 style={{ color: '#fff', margin: 0 }}>
-										Second slide label
-									</h5>
-								</Carousel.Caption>
+									<Carousel.Caption
+										style={{
+											...styles.normalSml,
+											...(hover ? styles.hoverSmal : null),
+										}}
+									>
+										<h5 style={{ color: '#fff', margin: 0 }}>
+											Second slide label
+										</h5>
+									</Carousel.Caption>
+								</a>
 							</Carousel.Item>
 						</Carousel>
 					)}
