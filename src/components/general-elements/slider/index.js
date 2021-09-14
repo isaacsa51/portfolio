@@ -84,37 +84,6 @@ const Slider = () => {
 									</Carousel.Caption>
 								</a>
 							</Carousel.Item>
-							<Carousel.Item
-								onMouseEnter={() => setHover(true)}
-								onMouseLeave={() => setHover(false)}
-							>
-								<img
-									className="d-block w-100"
-									src="https://picsum.photos/800/400?blur"
-									alt="Third slide"
-								/>
-
-								<a
-									href="/#"
-									style={{
-										textDecoration: 'none',
-										color: '#fff',
-										cursor: 'pointer',
-									}}
-								>
-									<Carousel.Caption
-										style={{
-											...styles.normal,
-											...(hover ? styles.hover : null),
-										}}
-									>
-										<h4 style={{ color: '#fff' }}>Third slide label</h4>
-										<p>
-											Nulla vitae elit libero, a pharetra augue mollis interdum.
-										</p>
-									</Carousel.Caption>
-								</a>
-							</Carousel.Item>
 						</Carousel>
 					)}
 
@@ -156,7 +125,7 @@ const Slider = () => {
 							>
 								<img
 									className="d-block w-100"
-									src="https://picsum.photos/800/400?blur"
+									src="https://picsum.photos/1200/600?blur"
 									alt="Second slide"
 								/>
 

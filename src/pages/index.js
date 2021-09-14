@@ -5,6 +5,7 @@ import Drawer from '../components/navbar/drawer';
 import About from '../components/about';
 import Services from '../components/services';
 import Projects from '../components/projects';
+import Footer from '../components/general-elements/footer';
 
 const Home = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -21,6 +22,8 @@ const Home = () => {
 			<About />
 			<Services />
 			<Projects />
+
+			<Footer />
 		</>
 	);
 };

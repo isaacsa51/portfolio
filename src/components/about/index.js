@@ -4,6 +4,7 @@ import TypeWriterEffect from 'react-typewriter-effect';
 
 import { OverlayTitle, PrimaryBtn, RotatedText } from '../general-elements';
 import { AboutDesc, AboutInfo } from './elements';
+import ProfilePhoto from '../../assets/main_profile.jpg';
 
 const About = () => {
 	return (
@@ -15,14 +16,11 @@ const About = () => {
 
 				<Row>
 					<Col md={5}>
-						<Carousel fade controls={false} indicators={false}>
-							<Carousel.Item>
-								<Image src="https://picsum.photos/400/600?grayscale" fluid />
-							</Carousel.Item>
-							<Carousel.Item>
-								<Image src="https://picsum.photos/400/600?blur" fluid />
-							</Carousel.Item>
-						</Carousel>
+						<img
+							className="d-block w-100"
+							src={ProfilePhoto}
+							alt="Second slide"
+						/>
 					</Col>
 					<Col md={7}>
 						<AboutDesc>
@@ -66,7 +64,7 @@ const About = () => {
 									in motion graphics in the 2D area and simple logo design.
 								</p>
 
-								<PrimaryBtn>Contact me!</PrimaryBtn>
+								<PrimaryBtn>Contact me</PrimaryBtn>
 							</AboutInfo>
 						</AboutDesc>
 					</Col>
